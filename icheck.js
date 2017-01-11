@@ -12,7 +12,7 @@ import $ from 'jquery';
 let win = window;
 let doc = document;
 
-module.export = function () {
+module.exports = function () {
 
   // default options
   var defaults = {
