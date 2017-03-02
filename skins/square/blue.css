@@ -30,6 +30,12 @@
     .icheckbox_square-blue.checked.disabled {
         background-position: -96px 0;
     }
+     .icheckbox_square-blue.indeterminate {
+        background-position: -240px 0;
+    }
+     .icheckbox_square-blue.indeterminate.disabled {
+        background-position: -264px 0;
+    }
 
 .iradio_square-blue {
     background-position: -120px 0;
@@ -53,7 +59,7 @@
     .icheckbox_square-blue,
     .iradio_square-blue {
         background-image: url(blue@2x.png);
-        -webkit-background-size: 240px 24px;
-        background-size: 240px 24px;
+        -webkit-background-size: 288px 24px;
+        background-size: 288px 24px;
     }
 }
