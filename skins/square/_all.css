@@ -207,6 +207,12 @@
     .icheckbox_square-blue.checked.disabled {
         background-position: -96px 0;
     }
+     .icheckbox_square-blue.indeterminate {
+        background-position: -240px 0;
+    }
+     .icheckbox_square-blue.indeterminate.disabled {
+        background-position: -264px 0;
+    }
 
 .iradio_square-blue {
     background-position: -120px 0;
@@ -226,12 +232,13 @@
     }
 
 /* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
     .icheckbox_square-blue,
     .iradio_square-blue {
         background-image: url(blue@2x.png);
-        -webkit-background-size: 240px 24px;
-        background-size: 240px 24px;
+        -webkit-background-size: 288px 24px;
+        background-size: 288px 24px;
+
     }
 }
 
