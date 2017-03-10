@@ -1017,4 +1017,4 @@ $(function () {
   });
 });
 
-module.exports = { icheck : win.icheck };
+export var icheck = win.icheck;
